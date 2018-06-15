@@ -1,0 +1,14 @@
+
+
+server:
+  port: 8080
+  servlet:
+    context-path: /camille
+spring:
+  application:
+    name: Camille
+  datasource:
+    url: jdbc:h2:./target/test
+  jpa:
+    hibernate:
+      ddl-auto: update
